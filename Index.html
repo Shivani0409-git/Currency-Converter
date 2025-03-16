@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="Currency_style.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="heading">Currency Converter</h1>
+        <label id="name">Enter Amount:</label>
+        <input type="number" placeholder="Enter number" id="Number_input">
+
+        <div id="option-conv">
+            <div class="from-to">
+                <label class="nam">FROM:</label>
+                <div id="IMag">
+                    <select class="select" id="FROM">
+                        <option>select</option>
+                    </select>
+                </div>
+            </div>
+            
+            <img src="https://cdn-icons-png.flaticon.com/128/4305/4305572.png" alt="convert-arrow" height="50px">
+            <div class="from-to">
+                <label class="nam">TO:</label>
+                <div id="TIMag" class="Titi">
+                    <select class="select" id="TO">
+                        <option>select</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <button id="Btn" type="submit">Click</button>
+        <button id="Output" type="submit"></button>
+        <h1>----***************----</h1>
+        
+    </div>
+    <script src="Currency_script.js"></script>
+</body>
+</html>
